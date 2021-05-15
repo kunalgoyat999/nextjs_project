@@ -1,3 +1,4 @@
+import someicon from "../icons/icon";
 import classes from "./event-item.module.css";
 import Link from "next/link";
 import Image from "next/image";
@@ -25,6 +26,7 @@ function Eventitem(props) {
           <time>{readableDate}</time>
         </div>
         <div className={classes.address}>
+          <someicon />
           <address>{formattedAddress}</address>
         </div>
       </div>
